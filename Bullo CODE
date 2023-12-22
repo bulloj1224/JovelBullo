@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    char *array[] = {"MAKAHILAK", "MAGKALISUD", "INC", "MABAGSAK"};
+
+    for (int i = 3; i < sizeof(array) / sizeof(array[0]); i++) {
+        printf("MANIFESTING DI %s SA ITE, CUTIE!", array[i]);
+    }
+
+    return 0;
+}
